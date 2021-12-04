@@ -1,0 +1,220 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+
+body{
+    background-color: rgba(228, 228, 228, 0.719);
+}
+a{
+    text-decoration: none;
+}
+
+/*---------------------------------------navbar-------------------------------------------------*/
+.head{
+    display: flex;
+    background-color: white;
+    align-items: center;
+    
+}
+.title{
+    padding-left: 20px;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+    margin: auto;
+    float: left;
+    width: 100%;
+    background-color: white;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: rgb(209, 14, 14);
+  }
+  
+
+  
+/* When the screen is less than 800 pixels wide,then navbar shift down*/
+@media screen and (max-width: 800px) {
+    .head{
+        
+        padding: auto;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+      }
+
+      .newline{
+          width: 100%;
+          background-color: rgba(228, 228, 228, 0.719) ;
+      }
+
+    .head .nav_socialicons {
+        display: none;
+    }
+    .title{
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        height: 70px;
+        padding-left: 20px;
+        
+    
+
+    }
+    .topnav{
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+
+    }
+    .topnav a {
+        float:left;
+    }
+    
+  }
+
+  /* ------navicons--------- */
+  .nav_socialicons{
+      display: flex;
+      padding-right: 5%;
+      flex-direction: row;
+      column-gap: 10px;
+      
+  }
+  
+ 
+  .head button img,.head button{
+    width: 1cm;
+    height: 1cm;
+    border-radius: 5mm;
+  }
+
+  .head button{
+      background-color: white;
+       border:white; 
+       opacity: 0.8;
+  }
+
+  .head button:hover{
+      transition: .1sec;
+      scale: 110%;
+      opacity: 1;
+
+  }
+
+
+
+  /* ----------------------newsarea----------- */
+.newsarea{
+    width:100%;
+    /* background-color: rgb(177, 177, 177); */
+    height: 30px;
+    padding: 0.7%;
+
+}
+  
+
+
+/*------------------------------footer-----------------------------------*/
+footer{
+    display: flex;
+    position:relative;
+    bottom: 0%;
+    width: 100%;
+}
+
+
+
+.footstyle{
+    justify-content: space-around;
+    width: 100%;
+    margin: auto;
+    line-height: 20px;
+    background-image: linear-gradient(45deg,rgb(251, 255, 0),rgb(12, 112, 143));
+}
+
+.footstyle ul{
+    list-style-type:circle;
+}
+
+.footstyle li:hover{
+    list-style-type: disc;
+    color: black;
+    cursor:pointer;
+}
+
+.footlistcol-1{
+    text-align: center;
+    position: relative;
+    width: 30%; 
+    padding: 20px;
+    padding-left: 10%; 
+    float: left;
+    color: rgb(255, 246, 246);
+}
+
+.footlistcol-2{
+    width: 30%;
+    padding: 20px;
+    text-align: center;
+    float: left;
+    color: rgb(255, 246, 246);
+}
+
+.socialicons{
+    margin: auto;
+    padding-left:10%;
+    width: auto;
+    float: left;
+    color: whitesmoke;
+}
+@media screen and (max-width:600px){
+    .footlistcol-1,.footlistcol-2{
+        width:50%;
+    }
+    .socialicons{
+    text-align: center;
+    margin: auto 33%;
+    width: 40%;
+    padding: 0%;
+    color: whitesmoke;}
+}
+    
+
+.socialicons img{
+    position: relative;
+    width: 1cm;
+    height: 1cm;
+    border-radius: 3mm;
+}
+
+.footstyle h3{
+
+    margin-left: 10%;
+    color: black;
+}
+.copyright{
+    width: 100%;
+    float:left;
+    background-color:rgba(147, 163, 141, 0.671);
+    text-align: center;
+}
