@@ -17,19 +17,28 @@
     }
   }
 body {
-    background: linear-gradient(0deg, #fff, 50%, #DEEEFE);
+    background: linear-gradient(90deg, #fff, 50%, #DEEEFE);
     font-family: 'Rubik', sans-serif;
-    background: #f0f3f5e3;
+    /* background: #f0f3f5e3; */
     height: 100 !important
 }
 
+/* --------------setting navbar background to white--------- */
+.bg-light{
+  background-color: white !important;
+}
 .container-fluid {
     overflow: hidden;
     margin-top: 250px;
-    background: #262626;
+    background: #262626 !important;
     color: #627482 !important;
     margin-bottom: 0;
     padding-bottom: 0
+}
+
+footer .text-light{
+  background: #262626 !important;
+
 }
 
 small {
