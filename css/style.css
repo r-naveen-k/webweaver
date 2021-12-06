@@ -16,11 +16,32 @@
       font-size: 1.6rem;
     }
   }
+
+
+  /* -----------------fade inn animations--------------- */
+  body {
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+  
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}
+
+
+
 body {
-    background: linear-gradient(90deg, #fff, 50%, #DEEEFE);
+    background: linear-gradient(60deg, rgb(202, 183, 6), 50%, #5aa1e9);
     font-family: 'Rubik', sans-serif;
     /* background: #f0f3f5e3; */
-    height: 100 !important
+    height: 100 !important;
+    transition: 1s ease-in;
 }
 
 /* --------------setting navbar background to white--------- */
@@ -40,6 +61,42 @@ footer .text-light{
   background: #262626 !important;
 
 }
+
+/* ------------corosal indicators to dots-------------- */
+.carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+}
+
+
+.card-body{
+  vertical-align: middle;
+}
+
+/* ------------------card body buttons-------------- */
+
+.card-body{
+  text-align: center;
+  align-items: center;
+}
+
+.card-body button{
+  outline: none;
+  color: rgba(0, 0, 0, 0.432);
+  font-size: 100px;
+  height: 50%;
+  width: 50%;
+  background-color: white;
+  border-radius: 100%;
+}
+.card-body button:hover{
+  scale:110%;
+  border: none;
+  color: skyblue;
+}
+
+
 
 small {
     font-size: calc(12px + (15 - 12) * ((100vw - 360px) / (1600 - 360))) !important
