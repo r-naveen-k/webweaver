@@ -96,6 +96,13 @@ footer .text-light{
   color: skyblue;
 }
 
+/* --------------hover effect on card------------ */
+.card:hover{
+  scale: 98%;
+  background-color: rgba(82, 84, 88, 0.651);
+  color: white;
+}
+
 
 
 small {
@@ -125,4 +132,13 @@ html {
     font-size: 1rem;
   }
   
+  /* --------------imgae corosal caption-------------- */
+
+  .carousel-caption{
+    padding-left: 40px;
+    text-align: left;
+    border-radius: 5px;
+    color: black;
+    
+  }
  
