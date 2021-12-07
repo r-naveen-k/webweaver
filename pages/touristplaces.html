@@ -1,15 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDFHlXTIfSmGyQ63Kc-dq2e8C6kG1VzWPc"></script>
+ 
+  <script src="../javascript/maps.js"></script>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.0/font/bootstrap-icons.css" integrity="sha384-7ynz3n3tAGNUYFZD3cWe5PDcE36xj85vyFkawcF6tIwxvIecqKvfwLiaFdizhPpN" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0,shrink-to-fit=no"">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,shrink-to-fit=no">
     <title>WEB WEAVER</title>
 </head>
-<body>
+<body onload="InitMap();">
   
 
     
@@ -35,10 +38,7 @@
       </nav>
     <br>
 
-    <!-- ---------------newsarea---------------
-    <div class="newsarea"><marquee direction="left" onMouseOver="this.stop()" onMouseOut="this.start()">The latest news about the hotels and the website will be displayed here..........................................................................................................................</marquee></div>
-
-    -body-->
+    <div id="map"></div>
     
    
 

@@ -149,6 +149,7 @@ html {
     color: wheat;
     
   }
+
   /* ---------news area-------- */
   .newsarea{
     border: 1px solid ;
@@ -183,3 +184,11 @@ html {
   border: 0.5px solid;
   border-radius: 3px;
 }
+
+  #map {
+    height: 400px;
+    /* The height is 400 pixels */
+    width: 100%;
+    /* The width is the width of the web page */
+  } 
+
