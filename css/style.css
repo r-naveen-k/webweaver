@@ -53,15 +53,17 @@ body {
 
 /* --------------setting navbar background--------- */
 .bg-dark{
-  background:rgba(61, 61, 61, 0.548) !important;
+  background:rgba(110, 108, 108, 0.623) !important;
   width: 100%;
 }
 
 .navbar{
   margin-top: 0;
   top:0;
+  left: 0;
   color: rgb(255, 255, 255);
   position: fixed;
+  z-index: 10;
 }
 .container-fluid {
     overflow: hidden;
@@ -94,6 +96,7 @@ footer .text-light{
 .card-body{
   text-align: center;
   align-items: center;
+   
 }
 
 .card-body button{
@@ -173,10 +176,12 @@ html {
 
  /* -------------hero------------ */
  .jumbotron{
+   margin-top: 40px;
    color: white;
    background-image: url(../gallery_images/hero.jpg);
    background-repeat:no-repeat;
    background-size:cover;
+   top: 0;
    
  }
 
@@ -194,10 +199,15 @@ html {
   border-radius: 3px;
 }
 
-  #map {
+  #map { margin-top: 70px;
     height:400px;
    
     width: 100%;
     
   } 
+
+
+
+
+
 
