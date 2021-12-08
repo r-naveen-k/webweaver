@@ -2,6 +2,7 @@
 @include media-breakpoint-up(sm) {
     html {
       font-size: 1.2rem;
+      
     }
   }
   
@@ -17,12 +18,18 @@
     }
   }
 
+  html{
+    scroll-behavior: smooth !important; /*added by naven for scroll smoothly*/
+  }
+
 
   /* -----------------fade inn animations--------------- */
   body {
     animation: fadeInAnimation ease 2s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
+    
+    
 }
   
 @keyframes fadeInAnimation {
@@ -37,7 +44,7 @@
 
 
 body {
-    background: linear-gradient(60deg, rgb(202, 183, 6), 50%, #5aa1e9);
+    background: linear-gradient(60deg, rgb(238, 237, 230), 50%, #dae3ec98);
     font-family: 'Rubik', sans-serif;
     /* background: #f0f3f5e3; */
     height: 100 !important;
@@ -135,15 +142,53 @@ html {
   /* --------------imgae corosal caption-------------- */
 
   .carousel-caption{
+    background-image: linear-gradient(90deg, rgba(44, 44, 44, 0.664), rgba(255, 255, 255, 0));
     padding-left: 40px;
     text-align: left;
     border-radius: 5px;
-    color: black;
+    color: wheat;
     
   }
+
+  /* ---------news area-------- */
+  .newsarea{
+    border: 1px solid ;
+    border-left: none;
+    border-right: none;
+    
+  }
+ 
+
+
+
+
+ /* -------------hero------------ */
+ .jumbotron{
+   color: white;
+   background-image: url(../gallery_images/hero.jpg);
+   background-repeat:no-repeat;
+   background-size:cover;
+   
+ }
+
+ .corosal-head{
+   color:ivory;
+   height:81px;
+  overflow: visible;
+  text-align: left;
+  padding-left: 5%;
+  background-image: linear-gradient(90deg, rgba(44, 44, 44, 0.664), rgba(255, 255, 255, 0));
+}
+
+.corosal-container{
+  border: 0.5px solid;
+  border-radius: 3px;
+}
+
   #map {
     height: 400px;
     /* The height is 400 pixels */
     width: 100%;
     /* The width is the width of the web page */
   } 
+
