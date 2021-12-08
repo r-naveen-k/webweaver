@@ -51,9 +51,17 @@ body {
     transition: 1s ease-in;
 }
 
-/* --------------setting navbar background to white--------- */
-.bg-light{
-  background-color: white !important;
+/* --------------setting navbar background--------- */
+.bg-dark{
+  background:rgba(61, 61, 61, 0.548) !important;
+  width: 100%;
+}
+
+.navbar{
+  margin-top: 0;
+  top:0;
+  color: rgb(255, 255, 255);
+  position: fixed;
 }
 .container-fluid {
     overflow: hidden;
@@ -105,6 +113,7 @@ footer .text-light{
 
 /* --------------hover effect on card------------ */
 .card:hover{
+  cursor: pointer;
   scale: 98%;
   background-color: rgba(82, 84, 88, 0.651);
   color: white;
@@ -186,9 +195,9 @@ html {
 }
 
   #map {
-    height: 400px;
-    /* The height is 400 pixels */
+    height:100%;
+   
     width: 100%;
-    /* The width is the width of the web page */
+    
   } 
 
