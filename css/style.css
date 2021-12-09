@@ -209,6 +209,41 @@ html {
   } 
 
 
+  /* ===========benifits=========== */
+ .benifits{
+  height: 200px;
+  /* background-image: linear-gradient(60deg, rgba(255, 240, 31, 0.911), rgba(251, 255, 247, 0.39)) */
+  background-color: rgba(241, 202, 25, 0.801);
+}
+.benifits .card-deck{
+  height: 100%;
+}
+
+.benifits .card:hover{
+ color: black     !important;
+
+}
+
+.benifits .card{
+  padding: 30px;
+  height: 100%;
+  width: 20%;
+  font-size: 60px;
+  text-align: center;
+  vertical-align: middle;
+  background: none;
+  border: none;
+}
+
+
+/* ============about us section=========== */
+.aboutus .jumbotron{
+ background: url("../logos/about.jpg");
+ background-position-y:bottom;
+ 
+}
+
+
 
 
 
