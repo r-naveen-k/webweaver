@@ -198,14 +198,15 @@ html {
   border: 0.5px solid;
   border-radius: 3px;
 }
-
-  #map { margin-top: 70px;
+#map {
+  height:400px;
+   
     height:400px;
    
-    width: 100%;
+    width: 95%;
+    
     
   } 
-
 
 
 

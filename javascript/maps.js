@@ -14,6 +14,8 @@ var locations = [
 
 ];
 function InitMap() {
+    const image =
+    "../gallery_images/icon.jpg";
     var map = new google.maps.Map(document.getElementById('map'), {
         zoom: 2,
         center: new google.maps.LatLng(28.614884, 77.208917),
@@ -22,9 +24,12 @@ function InitMap() {
     var infowindow = new google.maps.InfoWindow();
     var marker, i;
     for (i = 0; i < locations.length; i++) {
+        const location = locations[i];
         marker = new google.maps.Marker({
             position: new google.maps.LatLng(locations[i][1], locations[i][2]),
-            map: map
+            map: map,
+            title:location[0],
+            label:"F",
         });
         google.maps.event.addListener(marker, 'click', (function (marker, i) {
             return function () {
