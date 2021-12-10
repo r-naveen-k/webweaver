@@ -53,7 +53,7 @@ body {
 
 /* --------------setting navbar background--------- */
 .bg-dark{
-  background:rgba(110, 108, 108, 0.623) !important;
+  background:rgba(77, 72, 72, 0.897) !important;
   width: 100%;
 }
 
@@ -67,8 +67,8 @@ body {
 }
 .container-fluid {
     overflow: hidden;
-    margin-top: 250px;
-    background: #262626 !important;
+    /* margin-top: 250px; */
+    background: #262626 ;
     color: #627482 !important;
     margin-bottom: 0;
     padding-bottom: 0
@@ -211,7 +211,7 @@ html {
 
   /* ===========benifits=========== */
  .benifits{
-  height: 200px;
+  height: auto;
   /* background-image: linear-gradient(60deg, rgba(255, 240, 31, 0.911), rgba(251, 255, 247, 0.39)) */
   background-color: rgba(241, 202, 25, 0.801);
 }
@@ -227,20 +227,66 @@ html {
 .benifits .card{
   padding: 30px;
   height: 100%;
-  width: 20%;
+  
   font-size: 60px;
   text-align: center;
   vertical-align: middle;
   background: none;
   border: none;
 }
+@media screen and (max-width: 600px) {
+  .benifits{
+    justify-content: space-around;
+  }
+}
 
 
 /* ============about us section=========== */
 .aboutus .jumbotron{
  background: url("../logos/about.jpg");
- background-position-y:bottom;
+ background-size:cover ;
+ background-position-y:700px;
  
+}
+
+/* ===============about us container============= */
+.aboutus .container-fluid{
+  margin-top: auto !important;
+  padding: 3%;
+  color: black !important;
+}
+.aboutus .yello{
+ 
+  color:rgba(241, 202, 25, 0.801);
+}
+.red{
+  color: red;
+  display: inline;
+}
+
+.aboutus h4{
+  font-style: italic;
+  
+  
+}
+
+
+/* -----------------chairman------------------- */
+.bg-1 { 
+  background-color: #1abc9c; /* Green */
+  color: #ffffff;
+}
+.bg-2 { 
+  background-color: #474e5d; /* Dark Blue */
+  color: #ffffff;
+}
+.bg-3 { 
+  background-color: #fff; /* White */
+  color: #555555;
+}
+
+.circle{
+  border-radius: 100%;
 }
 
 
