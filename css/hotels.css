@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik&display=swap');
+@include media-breakpoint-up(sm) {
+    html {
+      font-size: 1.2rem;
+      
+    }
+  }
+  
+  @include media-breakpoint-up(md) {
+    html {
+      font-size: 1.4rem;
+    }
+  }
+  
+  @include media-breakpoint-up(lg) {
+    html {
+      font-size: 1.6rem;
+    }
+  }
+
+  html{
+    scroll-behavior: smooth !important; /*added by naven for scroll smoothly*/
+  }
+
+
+  /* -----------------fade inn animations--------------- */
+  body {
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    
+    
+}
+  
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}
+
+
+
+body {
+    background: linear-gradient(60deg, rgb(238, 237, 230), 50%, #dae3ec98);
+    font-family: 'Rubik', sans-serif;
+    /* background: #f0f3f5e3; */
+    height: 100 !important;
+    transition: 1s ease-in;
+}
+
+/* --------------setting navbar background--------- */
+.bg-dark{
+  background:rgba(77, 72, 72, 0.897) !important;
+  width: 100%;
+}
+
+.navbar{
+  margin-top: 0;
+  top:0;
+  left: 0;
+  color: rgb(255, 255, 255);
+  position: fixed;
+  z-index: 10;
+}
+.container-fluid {
+    overflow: hidden;
+    /* margin-top: 250px; */
+    background: #262626 ;
+    color: #627482 !important;
+    margin-bottom: 0;
+    padding-bottom: 0
+}
+
+footer .text-light{
+  background: #262626 !important;
+
+}
+
+/* ------------corosal indicators to dots-------------- */
+.carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+}
+
+
+
+
+
+/* --------------hover effect on card------------ */
+
+
+
+small {
+    font-size: calc(12px + (15 - 12) * ((100vw - 360px) / (1600 - 360))) !important
+}
+
+.bold-text {
+    color: #989c9e !important
+}
+
+.mt-55 {
+    margin-top: calc(50px + (60 - 50) * ((100vw - 360px) / (1600 - 360))) !important
+}
+
+h3 {
+    font-size: calc(34px + (40 - 34) * ((100vw - 360px) / (1600 - 360))) !important
+}
+
+.social {
+    font-size: 21px !important
+}
+
+.rights {
+    font-size: calc(10px + (12 - 10) * ((100vw - 360px) / (1600 - 360))) !important
+}
+html {
+    font-size: 1rem;
+  }
+  
+  /* --------------imgae corosal caption-------------- */
+
+  .carousel-caption{
+    background-image: linear-gradient(90deg, rgba(44, 44, 44, 0.664), rgba(255, 255, 255, 0));
+    padding-left: 40px;
+    text-align: left;
+    border-radius: 5px;
+    color: wheat;
+    
+  }
+
+  /* ---------news area-------- */
+  .newsarea{
+    border: 1px solid ;
+    border-left: none;
+    border-right: none;
+    
+  }
+ 
+
+
+
+
+ /* -------------hero------------ */
+ .jumbotron{
+   margin-top: 40px;
+   color: white;
+   background-image: url(../gallery_images/hero.jpg);
+   background-repeat:no-repeat;
+   background-size:cover;
+   top: 0;
+   
+ }
+
+ .corosal-head{
+   color:ivory;
+   height:81px;
+  overflow: visible;
+  text-align: left;
+  padding-left: 5%;
+  background-image: linear-gradient(90deg, rgba(44, 44, 44, 0.664), rgba(255, 255, 255, 0));
+}
+
+.corosal-container{
+  border: 0.5px solid;
+  border-radius: 3px;
+}
+#map {
+  height:400px;
+   
+    height:400px;
+   
+    width: 95%;
+    
+    
+  } 
+  .card {
+    margin: 1%;  
+    flex-direction: row;
+  }
+  .card img {
+    padding:2% ;
+    width: 30%;
+  }
+
+  /* ===========benifits=========== */
+ .benifits{
+  height: auto;
+  /* background-image: linear-gradient(60deg, rgba(255, 240, 31, 0.911), rgba(251, 255, 247, 0.39)) */
+  background-color: rgba(241, 202, 25, 0.801);
+}
+.benifits .card-deck{
+  height: 100%;
+}
+
+.benifits .card:hover{
+ color: black     !important;
+
+}
+
+.benifits .card{
+  padding: 30px;
+  height: 100%;
+  
+  font-size: 60px;
+  text-align: center;
+  vertical-align: middle;
+  background: none;
+  border: none;
+}
+@media screen and (max-width: 600px) {
+  .benifits{
+    justify-content: space-around;
+  }
+}
+
+
+/* ============about us section=========== */
+.aboutus .jumbotron{
+ background: url("../logos/about.jpg");
+ background-size:cover ;
+ background-position-y:700px;
+ 
+}
+
+/* ===============about us container============= */
+.aboutus .container-fluid{
+  margin-top: auto !important;
+  padding: 3%;
+  color: black !important;
+}
+.aboutus .yello{
+ 
+  color:rgba(241, 202, 25, 0.801);
+}
+.red{
+  color: red;
+  display: inline;
+}
+
+.aboutus h4{
+  font-style: italic;
+  
+  
+}
+
+
+/* -----------------chairman------------------- */
+.bg-1 { 
+  background-color: #1abc9c; /* Green */
+  color: #ffffff;
+}
+.bg-2 { 
+  background-color: #474e5d; /* Dark Blue */
+  color: #ffffff;
+}
+.bg-3 { 
+  background-color: #fff; /* White */
+  color: #555555;
+}
+
+.circle{
+  border-radius: 100%;
+}
+
+
+
+
+
