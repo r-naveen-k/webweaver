@@ -3,7 +3,7 @@
 <head>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.0/font/bootstrap-icons.css" integrity="sha384-7ynz3n3tAGNUYFZD3cWe5PDcE36xj85vyFkawcF6tIwxvIecqKvfwLiaFdizhPpN" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="../../css/style.css">
+    <link rel="stylesheet" href="../../css/hotels.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0,shrink-to-fit=no"">
@@ -14,7 +14,7 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <!-- -----------------hero------------------------- -->
     
     <nav class="navbar navbar-dark bg-dark navbar-expand-lg ">
@@ -76,25 +76,28 @@
       <div class="carousel-inner">
         <div class="carousel-item active">
           <div class="carousel-caption" >
-            <h4>Spain</h4>
+            <h4>London</h4>
+            <p>The Houses of Parliament and Elizabeth Tower, commonly called Big Ben, are among London's most iconic landmarks and must-see London attractions.Technically, Big Ben is the name given to the massive bell inside the clock tower, which weighs more than 13 tons
+              </p>
         </div>
-          <img class="d-block w-100"  src="../../gallery_images/image-003.jpg" alt="First slide" height="500px">
+          <img class="d-block w-100"  src="../../gallery_images/countries/london1.jpg" alt="First slide" height="500px">
           
         </div>
         <div class="carousel-item">
           <div class="carousel-caption" >
-            <h4>Russia</h4>
+            <h4>London</h4>
+            <p>The Houses of Parliament and Elizabeth Tower, commonly called Big Ben, are among London's most iconic landmarks and must-see London attractions.Technically, Big Ben is the name given to the massive bell inside the clock tower, which weighs more than 13 tons
+              </p>
         </div>
-          <img class="d-block w-100" src="../../gallery_images/image-002.jpg" alt="Second slide" height="500px">
+          <img class="d-block w-100" src="../../gallery_images/countries/london2.jpg" alt="Second slide" height="500px">
         </div>
         <div class="carousel-item">
           <div class="carousel-caption" >
-            <h4> Colombia</h4>
-            <p>Colombia, officially the Republic of Colombia, is a country in South America. It is bordered by the Caribbean Sea to the north, Venezuela to the east, Brazil to the southeast, Ecuador and Peru to the south, the Pacific Ocean to the west, and Panama to the northwest
-              Doesn't it sense like delicious SeaFood? Check Out the lists of cuisines available to check-in.
+            <h4> London</h4>
+            <p>The London Eye, or the Millennium Wheel, is a cantilevered observation wheel on the South Bank of the River Thames in London. It is Europe's tallest cantilevered observation wheel, and is the most popular paid tourist attraction in the United Kingdom with over 3 million visitors annually
             </p>
         </div>
-          <img class="d-block w-100" src="../../gallery_images/image-001.jpg" alt="Third slide" height="500px">
+          <img class="d-block w-100" src="../../gallery_images/countries/London3.jpg" alt="Third slide" height="500px">
         </div>
       </div>
       <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -109,6 +112,70 @@
   </div>
   
 </div>
+<nav>
+    <div class="nav nav-tabs" id="nav-tab" role="tablist">
+      <button class="nav-link active" id="nav-overview-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Overview</button>
+      <button class="nav-link" id="nav-guestroom-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Guest Rooms</button>
+      <button class="nav-link" id="nav-dining-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Dining</button>
+      <button class="nav-link" id="nav-offers-tab" data-bs-toggle="tab" data-bs-target="#nav-offers" type="button" role="tab" aria-controls="nav-offers" aria-selected="false">Offers</button>
+      <button class="nav-link" id="nav-event-tab" data-bs-toggle="tab" data-bs-target="#nav-event" type="button" role="tab" aria-controls="nav-event" aria-selected="false">Event Spaces</button>
+      <button class="nav-link" id="nav-xper-tab" data-bs-toggle="tab" data-bs-target="#nav-experience" type="button" role="tab" aria-controls="nav-experience" aria-selected="false">Expriences</button>
+      <button class="nav-link" id="nav-gallery-tab" data-bs-toggle="tab" data-bs-target="#nav-gallery" type="button" role="tab" aria-controls="nav-gallery" aria-selected="false">Gallery</button>
+      
+    
+    </div>
+  </nav>
+  <div class="tab-content" id="nav-tabContent">
+    <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-overview-tab"><div class="container">
+                <div class="row" style="margin-top: 5%;">
+               <div class="col-sm-9" style="background-color:rgb(230, 240, 243);">
+                <h2 class="text-warning">First step Hotel,London</h2>
+                    <p>A tailor-made stay…just for you. Once the home of Lords and Ladies of the Royal Court, Taj 51 Buckingham Gate is unlike any other 5 star hotel in London. The hotel offers a wider choice of suites and residences than almost any other in London, providing guests with more space and flexibility to accommodate families, state delegations or top business executives.
+
+                        Beautifully designed suites and residences at our hotel in central London feature between one and six bedrooms, each with expansive living areas to relax or work. Every suite boasts a fully equipped kitchen, providing guests with the choice of in-suite dining or enjoying one of the hotel's celebrated restaurants in London, including Michelin-starred Quilon and the European Kona, famed for its creative afternoon teas. The newly relaunched wellness centre, marrying two iconic brands – Jiva and Temple Spa – offers the finest of East meets West spa treatments, designed to completely relax and restore the equilibrium of body and mind.
+                        
+                        Our acclaimed butler service and Golden Keys concierges attend to all personal requirements, ensuring bespoke experiences are easily and effortlessly arranged. This admired address has played host to truly dazzling weddings, private events and parties and milestone celebrations. After twilight, a magical incandescence illuminates St. James' Courtyard, offering a peaceful and private stay in the heart of royal London. Described as London’s ‘inner sanctum’, it is here that you will be able to unwind in unique tranquillity.</p>
+                    <h4 class="text-primary"><i class="bi bi-geo-alt"></i><u>Address :</u></h4>
+                    <h6>Street no:5, Big ben road, London</h6>
+                    <h5> <u>Hotel Highlights :</u></h5> 
+                    <h6><img src="../../logos/gyn-icon.jpg" style="width: 5%; height: 3%;">24/7 Gym</h6>
+                    <h6><i class="bi bi-bicycle" style="width: 5%;"></i> Bicyle Track </h6>
+                    <h6><i class="bi bi-wifi"></i> Free Wifi</h6>               
+                    <h5><u>Hotel Ploicies</u></h5>
+                    <h6>Check-in from 2:00 PM</h6>
+                        <h6>Check-out until 12:00 PM</h6>
+                        <h6>Early check-in and late check-out on request, at extra cost</h6>
+                        <h6>We accept American express, Diner's Club, Master Card, Visa, JCB International</h6>
+                        <h6>Explore  Kids, a kids program based on adventure, discovery while keeping in mind fun and learning.</h6>
+                        <h6>Pets are not allowed</h6>
+                        <h6>Smoking is not permitted on the hotel premises.</h6>
+                </div>
+                  <div class="col-sm-3" style="background-color:rgb(245, 237, 238);">
+                    <img src="../../gallery_images/hotels/london-hotel.jpg" class="img-thumbnail"  style="height:50%; width: 100%; margin-top: 20%;" alt="...">
+                    
+                  </div>
+                </div>
+                
+                </div>
+            </div>
+    <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-guestroom-tab">
+        <div class="card">
+            <img src="../../gallery_images/hotels/room1_london.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title"><u>Kings Suite</u></h5>
+              <p class="card-text">At 40 Sq. Mt, these urban chic suites feature a king-size or twin bedroom,</p> 
+              <p class="card-text">luxurious bathroom and a fully-equipped kitchen with dining area - ideal for guests looking for a comfortable and stylish stay in London.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+    </div>
+    <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-dining-tab">howley</div>
+    <div class="tab-pane fade" id="nav-offers" role="tabpanel" aria-labelledby="nav-offers-tab">its okay</div>
+    <div class="tab-pane fade" id="nav-event" role="tabpanel" aria-labelledby="nav-event-tab">ur mad</div>
+    <div class="tab-pane fade" id="nav-experience" role="tabpanel" aria-labelledby="nav-xper-tab">ur having mental</div>
+    <div class="tab-pane fade" id="nav-gallery" role="tabpanel" aria-labelledby="nav-gallery-tab">big o</div>
+    
+  </div>
     <br>
 
     <div class="container-fluid pb-0 mb-0 justify-content-center text-light ">
