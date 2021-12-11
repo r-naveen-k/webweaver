@@ -15,22 +15,45 @@
     <title>WEB WEAVER</title>
 </head>
 <body>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
     <!-- --------------------navbar------------------------------------ -->
   <nav class="navbar navbar-dark bg-dark navbar-expand-lg ">
-    <a href="./index.html"><img src="../logos/title.png" height="70px" width="260px"></a>
+    <a href="../index.html"><img src="../logos/title.png" height="70px" width="260px"></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
+    <div class="collapse navbar-collapse" id="navbarNav" style="justify-content: space-around;">
       <ul class="navbar-nav">
-        <li class="nav-item"  style="margin-left: 300%;">
+        <li class="nav-item"  style="margin-left: 20%;">
           <a class="nav-link" href="../index.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item" style="margin-left: 20%;">
+          <a class="nav-link" href="./touristplaces.html">Hotels</a>
         </li>
         <li class="nav-item" style="margin-left: 20%;">
           <a class="nav-link"  href="./gallery.html">Gallery</a>
         </li>
         <li class="nav-item" style="margin-left: 20%;">
           <a class="nav-link" href="./contactus.html">About</a>
+        </li>
+        <li class="nav-item dropdown" style="margin-left: 20%;">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Search
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#indian">Indian</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#chinese">Chinese</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#italian">Italian</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#spanish">Spanish</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#greece">Greece</a>
+          </div>
         </li>
       </ul>
     </div>
@@ -45,7 +68,7 @@
             <hr>
 
             <!-- -----------------indian----------------------------- -->
-            <a id="indian"></a>
+            <a id="indian"></a><br>
             <div class="indian">
 
                 <div class="jumbotron" style="height: fit-content">
@@ -98,7 +121,7 @@
 
             <!-- ---------------------------end indian------------------ -->
         <!-- -------------------chinese----------------------- -->
-        <a id="chinese"></a>
+        <a id="chinese"></a><br>
         <div class="chinese" >
             <div class="jumbotron" style="height: fit-content">
                 <h1 class="display-5">CHINESE</h1>
@@ -148,7 +171,7 @@
           <!-- ---------------------------end chainese--------------- -->
 
         <!-- -------------------italian---------------------------- -->
-        <a id="italian"></a>
+        <a id="italian"></a><br>
         <div class="italian">
 
             <div class="jumbotron" style="height: fit-content">
@@ -199,7 +222,7 @@
         <!-- ------------------------end italian------------------------s -->
 
         <!-- --------------------------spanish--------------------------------- -->
-        <a id="spanish"></a>
+        <a id="spanish"></a><br>
         <div class="spanish">
 
             <div class="jumbotron" style="height: fit-content">
@@ -252,7 +275,7 @@
         <!-- ---------------------------end spanish------------------------------ -->
 
         <!-- --------------------------greece------------------------------ -->
-        <a id="greece"></a>
+        <a id="greece"></a><br>
         <div class="greece">
 
             <div class="jumbotron" style="height: fit-content">
@@ -320,11 +343,12 @@
                     <div class="col-xl-2 col-md-4 col-sm-4 col-12">
                         <h6 class="mb-3 mb-lg-4 bold-text "><b>MENU</b></h6>
                         <ul class="list-unstyled">
-                            <li>Home</li>
-                            <li>About</li>
-                            <li>Blog</li>
-                            <li>Portfolio</li>
-                        </ul>
+                          <li><a href="../index.html">Home </a></li>
+                          <li><a href="./contactus.html">About</a></li>
+                          <li><a href="./gallery.html">Gallery</a></li>
+                          <li><a href="./touristplaces.html">Hotels</a></li>
+                          <li><a href="./cuisines.html">Cuisines</a></li>
+                      </ul>
                     </div>
                     <div class="col-xl-2 col-md-4 col-sm-4 col-12">
                         <h6 class="mb-3 mb-lg-4 text-muted bold-text mt-sm-0 mt-5"><b>CONTACT US</b></h6>

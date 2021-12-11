@@ -22,6 +22,16 @@
     scroll-behavior: smooth !important; /*added by naven for scroll smoothly*/
   }
 
+  a{
+    text-decoration: none;
+    color: inherit;
+  }
+
+  a:hover{
+    text-decoration: none;
+    color: inherit;
+  }
+
 
   /* -----------------fade inn animations--------------- */
   body {
@@ -86,6 +96,9 @@ footer .text-light{
   border-radius: 100%;
 }
 
+.card img{
+  height: 250px;
+}
 
 .card-body{
   vertical-align: middle;
@@ -121,6 +134,8 @@ footer .text-light{
   background-color: rgba(82, 84, 88, 0.651);
   color: white;
 }
+
+
 
 
 
@@ -239,15 +254,28 @@ html {
   .benifits{
     justify-content: space-around;
   }
+
+  a{
+    text-decoration: none;
+    color: inherit;
+  }
 }
 
 
 /* ============about us section=========== */
 .aboutus .jumbotron{
  background: url("../logos/about.jpg");
- background-size:cover ;
+ background-size:cover;
  background-position-y:700px;
  
+}
+
+@media screen and (max-width: 600px) {
+  .aboutus .jumbotron{
+    background-size: contain;
+    background-position-y:0%;
+  }
+  
 }
 
 /* ===============about us container============= */
