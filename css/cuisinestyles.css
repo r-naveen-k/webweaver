@@ -1,0 +1,47 @@
+.cuisines .chinese .jumbotron{
+    background: url("../gallery_images/cuisines/chaina/1.jpg");
+    background-size: cover;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.cuisines .italian .jumbotron{
+    background: url("../gallery_images/cuisines/italia/1.jpg");
+    background-size: cover;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.cuisines .spanish .jumbotron{
+    background: url("../gallery_images/cuisines/spain/1.jpg");
+    background-size: cover;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.cuisines .greece .jumbotron{
+    background: url("../gallery_images/cuisines/greece/1.jpg");
+    background-size: cover;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.cuisines .indian .jumbotron{
+    background: url("../gallery_images/cuisines/indian/1.jpg");
+    background-size: cover;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.cuisines .card{
+    color: coral;
+}
+
+.cuisines img{
+    height: 200px;
+}
+
+.cuisines .font{
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+.cuisines .lg-back{
+    width: 100%;
+    background-image: linear-gradient(0deg, rgba(37, 37, 37, 0.678), rgba(0, 0, 0, 0.144));
+}
+

@@ -199,7 +199,7 @@ html {
   border-radius: 3px;
 }
 #map {
-  height:400px;
+    margin: auto;
    
     height:400px;
    
@@ -253,7 +253,7 @@ html {
 .aboutus .container-fluid{
   margin-top: auto !important;
   padding: 3%;
-  color: black !important;
+  
 }
 .aboutus .yello{
  
@@ -262,6 +262,10 @@ html {
 .red{
   color: red;
   display: inline;
+}
+
+.black{
+  color: black !important;
 }
 
 .aboutus h4{
