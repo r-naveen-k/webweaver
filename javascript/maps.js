@@ -15,7 +15,7 @@ var locations = [
 ];
 
             
-var content=[[`<div id="content"><img src="../../../gallery_images/taj-mahal.jpg" style="width: 100%; height: 60%;"><div id="siteNotice"></div><h6 id="firstHeading" class="firstHeading">${locations[0][0]}</h4> <a  href="../../pages/hotels/agra.html" style="color:  rgb(79, 70, 211);"></a>click to visit hotel page<div ></div></div>`],
+var content=[[`<div id="content"><img src="./../../gallery_images/taj-mahal.jpg" style="width: 100%; height: 60%;"><div id="siteNotice"></div><h6 id="firstHeading" class="firstHeading">${locations[0][0]}</h4> <a  href="../../pages/hotels/agra.html" style="color:  rgb(79, 70, 211);"></a>click to visit hotel page<div ></div></div>`],
 [`<div id="content"><img src="../../../gallery_images/effiletower.jpg" style="width: 100%; height: 60%;"><div id="siteNotice"></div><h6 id="firstHeading" class="firstHeading">${locations[1][0]}</h4><a href="../../pages/hotels/paris.html" style="color:  rgb(79, 70, 211);">click to visit hotel page </a>  <div ></div></div>`],
 [`<div id="content"><img src="../../../gallery_images/toronto.jpg" style="width: 100%; height: 60%;"><div id="siteNotice"></div><h6 id="firstHeading" class="firstHeading">${locations[2][0]}</h4><a href="../../pages/hotels/toronto.html" style="color:  rgb(79, 70, 211);"  >click to visit hotel page </a>   <div </div></div>`],
 [`<div id="content"><img src="../../../gallery_images/singapore.jpg" style="width: 100%; height: 60%;"><div id="siteNotice"></div><h6 id="firstHeading" class="firstHeading">${locations[3][0]}</h4><a href="../../pages/hotels/singapore.html" style="color:  rgb(79, 70, 211);">click to visit hotel page</a><div ></div></div>`],
