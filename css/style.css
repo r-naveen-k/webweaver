@@ -346,3 +346,18 @@ html {
 }
 
 
+/* -------------------covid page----------------- */
+
+.covid{
+ 
+  background: url("../gallery_images/covid/hero.jpg") !important;
+  background-size: contain;
+  background-position-y: center;
+}
+
+.covid .lists{
+  font-size: 19px;
+  width: 80%;
+  background-color: rgba(0, 0, 0, 0.342);
+  margin: auto 15%;
+}
