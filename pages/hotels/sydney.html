@@ -1,0 +1,951 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.0/font/bootstrap-icons.css" integrity="sha384-7ynz3n3tAGNUYFZD3cWe5PDcE36xj85vyFkawcF6tIwxvIecqKvfwLiaFdizhPpN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="../../css/hotels.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,shrink-to-fit=no"">
+    <title>WEB WEAVER</title>
+</head>
+<body>
+  
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <!-- -----------------hero------------------------- -->
+    
+     
+    <nav class="navbar navbar-dark bg-dark navbar-expand-lg ">
+      <a href="../../index.html"><img src="../../logos/title.png" height="70px" width="260px"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav" style="justify-content:left">
+        <ul class="navbar-nav" style="margin-left:20%;">
+          <li class="nav-item" style="margin-left:20%">
+            <a class="nav-link" href="../../index.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item" style="margin-left: 20%;">
+            <a class="nav-link" href="../../pages/cuisines.html">Cuisines</a>
+          </li>
+          <li class="nav-item" style="margin-left: 20%;">
+            <a class="nav-link" href="../../pages/touristplaces.html">Hotels</a>
+          </li>
+          <li class="nav-item" style="margin-left: 20%;">
+            <a class="nav-link"  href="../../pages/gallery.html">Gallery</a>
+          </li>
+          <li class="nav-item" style="margin-left: 20%;">
+            <a class="nav-link"  href="../../pages/covid.html">covid-19</a>
+          </li>
+          <li class="nav-item" style="margin-left: 20%;">
+            <a class="nav-link" href="../../pages/contactus.html">About</a>
+          </li>
+          
+        </ul>
+      </div>
+    </nav>
+      <br><br>
+
+
+
+      <!-- <div class="jumbotron" style="height: 100vh">
+        <h1 class="display-4">First Step Hotels</h1>
+        <p class="lead">The widely spreaded International Chain of Hotels.</p>
+        <hr class="my-4" >
+        <h4>What we do?</h4>
+        <p style="color: rgb(255, 255, 255)">We are the leading International Organisation of Hotel Businesses. We provide a wide range of Hotel Services around the Globe.<br>
+        Reaching out every country and serving up wide varieties of Cuisines Overseas. 
+        </p>
+        <p class="lead">
+          <a class="btn btn-primary btn-lg top1" href="#top" role="button" >Come Explore!!!!</a>
+        </p>
+      </div> -->
+
+     
+
+<!-- ---------------------end hero---------- -->
+
+     
+      <br><br><br><br>
+      <!-- <div class="corosal-container" >
+      <div align="center" class="corosal-head"  >
+      <h3></h3>
+      
+      <p> &nbsp &nbsp &nbsp We always research and suggest the top most 1st Step Branches so that no one can worry about where to try. <br></p></div> -->
+    <div>
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" >
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+      
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="carousel-caption">
+            <h4>The Sydney Opera House</h4>
+            <p>The Sydney Opera House is a multi-venue performing arts centre in Sydney. Located on the banks of the Sydney Harbour, it is often regarded as one of the world's most famous and distinctive buildings and a masterpiece of 20th century architecture. Designed by Danish architect Jørn Utzon, but completed by an Australian architectural team headed by Peter Hall, the building was formally opened on 20 October 1973 after a gestation beginning with Utzon's 1957 selection as winner of an international design competition. 
+            </p>
+        </div>
+          <img class="d-block w-100"  src="../../gallery_images/countries/sydney1.jpg" alt="First slide" height="500px">
+          
+        </div>
+        <div class="carousel-item">
+          <div class="carousel-caption" >
+            <h4>Bondi Beach</h4>
+            <p>Bondi Beach is a popular beach and the name of the surrounding suburb in Sydney, New South Wales, Australia. Bondi Beach is located 7 km east of the Sydney central business district, in the local government area of Waverley Council, in the Eastern Suburbs. It has a population of 11,656 residents. Its post code is 2026. Bondi, North Bondi, and Bondi Junction are neighbouring suburbs. Bondi Beach is one of the most visited tourist sites in Australia.
+            </p>
+        </div>
+          <img class="d-block w-100" src="../../gallery_images/countries/sydney2.jpg" alt="Second slide" height="500px">
+        </div>
+        <div class="carousel-item">
+          <div class="carousel-caption" >
+            <h4>The Sydney Harbour Bridge</h4>
+            <p>The Sydney Harbour Bridge is a heritage-listed steel through arch bridge in Sydney, spanning Sydney Harbour from the central business district to the North Shore. The view of the bridge, the harbour, and the nearby Sydney Opera House is widely regarded as an iconic image of Sydney, and of Australia itself. Nicknamed "The Coathanger" because of its arch-based design, the bridge carries rail, vehicular, bicycle and pedestrian traffic. Under the direction of John Bradfield of the New South Wales Department of Public Works, the bridge was designed and built by British firm Dorman Long of Middlesbrough and opened in 1932.
+
+            </p>
+        </div>
+          <img class="d-block w-100" src="../../gallery_images/countries/sydney3.jpg" alt="Third slide" height="500px">
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </div>
+  
+</div>
+<nav>
+    <div class="nav nav-tabs" id="nav-tab" role="tablist" style="width: 100%; margin: 2%; background: border-box;">
+      <button class="nav-link active" id="nav-overview-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Overview</button>
+      <button class="nav-link"  id="nav-guestroom-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Guest Rooms</button>
+      <button class="nav-link" id="nav-dining-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Dining</button>
+      <button class="nav-link" id="nav-offers-tab" data-bs-toggle="tab" data-bs-target="#nav-offers" type="button" role="tab" aria-controls="nav-offers" aria-selected="false">Offers</button>
+      <button class="nav-link" id="nav-event-tab" data-bs-toggle="tab" data-bs-target="#nav-event" type="button" role="tab" aria-controls="nav-event" aria-selected="false">Event Spaces</button>
+      <button class="nav-link" id="nav-xper-tab" data-bs-toggle="tab" data-bs-target="#nav-experience" type="button" role="tab" aria-controls="nav-experience" aria-selected="false">Expriences</button>
+      <button class="nav-link" id="nav-gallery-tab" data-bs-toggle="tab" data-bs-target="#nav-gallery" type="button" role="tab" aria-controls="nav-gallery" aria-selected="false">Gallery</button>
+      
+    
+    </div>
+  </nav>
+  <div class="tab-content" id="nav-tabContent">
+    <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-overview-tab"><div class="container">
+                <div class="row" style="margin-top: 5%;">
+               <div class="col-sm-9" style="background-color:rgb(163, 190, 241);">
+                <h2 class="text-warning">First step Hotel,Sydney</h2>
+                    <p>The five-star star, family friendly 1st Step Hotel Sydney Hotel is located in the center of Sydney; five minutes’ walk from the Opera House and the ANZAC Memorial.
+                        Rooms at the 1st Step Hotel Sydney are air conditioned and include LCD color television, safety deposit box, clock radio and tea and coffee maker.  Upgraded rooms are en-suite; others have shared bathroom facilities.  Some rooms include mini refrigerator and microwave.
+                        Guests visiting this Central Business District benefit from the internet kiosk and business center.  There is an onsite tour desk, laundry facilities, luggage storage, elevator and 24 hour reception. Airport transfers can be arranged.
+                        Shared kitchen facilities are available, in addition to an complimentary continental style breakfast and outdoor cafe.
+                        Adjacent to Hyde Park and Oxford Street, the area is well served by shops and restaurants. It’s a 10 minute walk to Paddy’s Markets and a similar drive time to the Botanical Gardens.
+                    </p>
+                      <h5 class="text-primary"><i class="bi bi-geo-alt"></i><u>Address :</u></h4>
+                    <h6>Street no:5, Big ben road, Sydney</h6>
+                    <h5> <u>Hotel Highlights :</u></h5> 
+                    <h6><img src="../../logos/gyn-icon.jpg" style="width: 5%; height: 3%;">24/7 Gym</h6>
+                    <h6><i class="bi bi-bicycle" style="width: 5%;"></i> Bicyle Track </h6>
+                    <h6><i class="bi bi-wifi"></i> Free Wifi</h6>               
+                    <h5><u>Hotel Ploicies</u></h5>
+                    
+                        <h6>We accept American express, Diner's Club, Master Card, Visa, JCB International</h6>
+                        <h6>Explore  Kids, a kids program based on adventure, discovery while keeping in mind fun and learning.</h6>
+                        <h6>Pets are not allowed</h6>
+                        <h6>Smoking is not permitted on the hotel premises.</h6>
+                </div>
+                  <div class="col-sm-3" style="background-color:rgb(59, 161, 187);">
+                    <img src="../../gallery_images/hotels/sydney.jpeg" class="img-thumbnail"  style="height:50%; width: 100%; margin-top: 20%;" alt="...">
+                    
+                  </div>
+                </div>
+                
+                </div>
+            </div>
+    <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-guestroom-tab">
+        <div class="card">
+            <img src="../../gallery_images/hotels/room1_london.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title"><u>Kings Suite</u></h5>
+              <p class="card-text">At 40 Sq. Mt, these urban chic suites feature a king-size or twin bedroom,</p> 
+              <p class="card-text">luxurious bathroom and a fully-equipped kitchen with dining area - ideal for guests looking for a comfortable and stylish stay in Sydney.</p>
+
+              <div class="container">
+                <div class="row">
+                  <div class="col-sm">
+                    <p class="card-text"><i class="bi bi-building"></i> 40 Sq Mt</p> 
+                </div>
+                <div class="col-sm">
+                    <p class="card-text"><i class="bi bi-wifi"></i> Wifi Complimentry</p> 
+                </div>
+                <div class="col-sm">
+                    
+                </div>
+               </div>
+               <div class="row">
+                <div class="col-sm">
+                  <p class="card-text"><i class="glyphicon glyphicon-user"></i><i class="glyphicon glyphicon-user"></i> Upto two guests</p> 
+              </div>
+              <div class="col-sm">
+                  <p class="card-text"><i class="fa fa-bed" aria-hidden="true"></i> King</p> 
+              </div>
+              <div class="col-sm">
+                  
+              </div>
+             </div>
+             <div class="row">
+                <div class="col-sm">
+                  <p class="card-text"><i class="fa fa-smoking-ban"></i> No smoking</p> 
+              </div>
+              <div class="col-sm">
+                  
+              </div>
+              <div class="col-sm">
+                <p class="card-text"><i class="bi bi-currency-pound"></i>593</p> 
+                  
+              </div>
+             </div>
+             <div class="row">
+                <div class="col-sm">
+                 
+              </div>
+              <div class="col-sm">
+                  
+              </div>
+              <div class="col-sm">
+                                <a href="#" class="btn btn-primary">Book Suite</a>
+              </div>
+             </div>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <img src="../../gallery_images/hotels/room2_london.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title"><u>Kings Deluxe Junior Suite</u></h5>
+              <p class="card-text">At 40 Sq. Mt, these contemporary suites feature a luxurious king-size bedroom with en-suite bathroom, spacious living area and a fully-stocked kitchen.</p> 
+              <p class="card-text"> Ample working space and complimentary wifi provide the perfect setting for jet-setting business executives, especially when combined with a personalized gym session or a spa treatment from Jiva.</p>
+
+              <div class="container">
+                <div class="row">
+                  <div class="col-sm">
+                    <p class="card-text"><i class="bi bi-building"></i> 40 Sq Mt</p> 
+                </div>
+                <div class="col-sm">
+                    <p class="card-text"><i class="bi bi-wifi"></i> Wifi Complimentry</p> 
+                </div>
+                <div class="col-sm">
+                    
+                </div>
+               </div>
+               <div class="row">
+                <div class="col-sm">
+                  <p class="card-text"><i class="glyphicon glyphicon-user"></i><i class="glyphicon glyphicon-user"></i> Upto two guests</p> 
+              </div>
+              <div class="col-sm">
+                  <p class="card-text"><i class="fa fa-bed" aria-hidden="true"></i> King</p> 
+              </div>
+              <div class="col-sm">
+                  
+              </div>
+             </div>
+             <div class="row">
+                <div class="col-sm">
+                  <p class="card-text"><i class="fa fa-smoking-ban"></i> No smoking</p> 
+              </div>
+              <div class="col-sm">
+                  
+              </div>
+              <div class="col-sm">
+                <p class="card-text"><i class="bi bi-currency-pound"></i>619</p> 
+                  
+              </div>
+             </div>
+             <div class="row">
+                <div class="col-sm">
+                 
+              </div>
+              <div class="col-sm">
+                  
+              </div>
+              <div class="col-sm">
+                                <a href="#" class="btn btn-primary">Book Suite</a>
+              </div>
+             </div>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <img src="../../gallery_images/hotels/room3_london.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title"><u>Minsters One Bedroom Suite</u></h5>
+              <p class="card-text">At 65 Sq. Mt, these homely suites feature a contemporary king bedroom, stylish bathroom, separate spacious living room and fully-equipped kitchen.</p> 
+              <p class="card-text">The seasonal in-room dining menu, great movie selection and extensive mini-bar offering make the perfect end to a busy working day</p>
+
+              <div class="container">
+                <div class="row">
+                  <div class="col-sm">
+                    <p class="card-text"><i class="bi bi-building"></i> 65 Sq Mt</p> 
+                </div>
+                <div class="col-sm">
+                    <p class="card-text"><i class="bi bi-wifi"></i> Wifi Complimentry</p> 
+                </div>
+                <div class="col-sm">
+                    
+                </div>
+               </div>
+               <div class="row">
+                <div class="col-sm">
+                  <p class="card-text"><i class="glyphicon glyphicon-user"></i><i class="glyphicon glyphicon-user"></i> Upto 3 guests</p> 
+              </div>
+              <div class="col-sm">
+                  <p class="card-text"><i class="fa fa-bed" aria-hidden="true"></i> King</p> 
+              </div>
+              <div class="col-sm">
+                  
+              </div>
+             </div>
+             <div class="row">
+                <div class="col-sm">
+                  <p class="card-text"><i class="fa fa-smoking-ban"></i> No smoking</p> 
+              </div>
+              <div class="col-sm">
+                  
+              </div>
+              <div class="col-sm">
+                <p class="card-text"><i class="bi bi-currency-pound"></i>720</p> 
+                  
+              </div>
+             </div>
+             <div class="row">
+                <div class="col-sm">
+                 
+              </div>
+              <div class="col-sm">
+                  
+              </div>
+              <div class="col-sm">
+                                <a href="#" class="btn btn-primary">Book Suite</a>
+              </div>
+             </div>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <img src="../../gallery_images/hotels/room6_london.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title"><u>Falconers Two Bedroom Suite</u></h5>
+              <p class="card-text">At 75 Sq. Mt, these large suites feature two luxurious and spacious bedrooms with king and twin beds, separate bathrooms for each bedroom, a fully-equipped kitchen and a family living area. They are ideal for families travelling with children.</p> 
+              <p class="card-text"> All young travellers (5 to 12 years old) receive special goodie bags with cuddly teddy bears and colouring sketchbooks. Kids enjoy personalized giant cookies and strawberry smoothie shooters as a welcome amenity.</p>
+
+              <div class="container">
+                <div class="row">
+                  <div class="col-sm">
+                    <p class="card-text"><i class="bi bi-building"></i> 75 Sq Mt</p> 
+                </div>
+                <div class="col-sm">
+                    <p class="card-text"><i class="bi bi-wifi"></i> Wifi Complimentry</p> 
+                </div>
+                <div class="col-sm">
+                    
+                </div>
+               </div>
+               <div class="row">
+                <div class="col-sm">
+                  <p class="card-text"><i class="glyphicon glyphicon-user"></i><i class="glyphicon glyphicon-user"></i> Upto 5 guests</p> 
+              </div>
+              <div class="col-sm">
+                  <p class="card-text"><i class="fa fa-bed" aria-hidden="true"></i> King</p> 
+              </div>
+              <div class="col-sm">
+                  
+              </div>
+             </div>
+             <div class="row">
+                <div class="col-sm">
+                  <p class="card-text"><i class="fa fa-smoking-ban"></i> No smoking</p> 
+              </div>
+              <div class="col-sm">
+                <p class="card-text"><i class="bi bi-star"></i> Stylish British décor & world-class amenities</p> 
+                  
+              </div>
+              <div class="col-sm">
+                <p class="card-text"><i class="bi bi-currency-pound"></i>800</p> 
+                  
+              </div>
+             </div>
+             <div class="row">
+                <div class="col-sm">
+                 
+              </div>
+              <div class="col-sm">
+                  
+              </div>
+              <div class="col-sm">
+                                <a href="#" class="btn btn-primary">Book Suite</a>
+              </div>
+             </div>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <img src="../../gallery_images/hotels/room9_london.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title"><u>Kings Deluxe Three Bedroom Suite</u></h5>
+              <p class="card-text">These large suites offer 140 Sq. Mt. of luxury, spread across three bedrooms with king size beds or twin beds, three stylish bathrooms, separate spacious living room area and a fully-equipped kitchen with dining table. </p> 
+              <p class="card-text"> Ideal for family re-unions or multi-generational trips. The kids’ selection in the mini-bar and in-room dining menus will ensure everyone is enjoying the much-needed family time, especially when Sydney's most famous musicals are only a 5-min walk away.</p>
+
+              <div class="container">
+                <div class="row">
+                  <div class="col-sm">
+                    <p class="card-text"><i class="bi bi-building"></i>140 Sq Mt</p> 
+                </div>
+                <div class="col-sm">
+                    <p class="card-text"><i class="bi bi-wifi"></i> Wifi Complimentry</p> 
+                </div>
+                <div class="col-sm">
+                    
+                </div>
+               </div>
+               <div class="row">
+                <div class="col-sm">
+                  <p class="card-text"><i class="glyphicon glyphicon-user"></i><i class="glyphicon glyphicon-user"></i> Upto 6 guests</p> 
+              </div>
+              <div class="col-sm">
+                  <p class="card-text"><i class="fa fa-bed" aria-hidden="true"></i> King</p> 
+              </div>
+              <div class="col-sm">
+                  
+              </div>
+             </div>
+             <div class="row">
+                <div class="col-sm">
+                  <p class="card-text"><i class="fa fa-smoking-ban"></i> No smoking</p> 
+              </div>
+              <div class="col-sm">
+                <p class="card-text"><i class="bi bi-star"></i> Colossal bedroom & living area</p> 
+                  
+              </div>
+              <div class="col-sm">
+                <p class="card-text"><i class="bi bi-currency-pound"></i>899</p> 
+                  
+              </div>
+             </div>
+             <div class="row">
+                <div class="col-sm">
+                 
+              </div>
+              <div class="col-sm">
+                  
+              </div>
+              <div class="col-sm">
+                                <a href="#" class="btn btn-primary">Book Suite</a>
+              </div>
+             </div>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <img src="../../gallery_images/hotels/room7_london.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title"><u>Presidential Three Bedroom Suite</u></h5>
+              <p class="card-text">The Presidential Residence occupies a whole floor with one, two- and three-bedroom Presidential Suites, which can be interconnected to create an opulent and contemporary six-bedroom residence.</p> 
+              <p class="card-text"> The floor features a private doorway, leading to a spacious hall with three separate entrances into each suite. The Presidential Residence is 167 Sq Mt. The first suite is 1,797 square feet in size, consisting of three double bedrooms each with an en-suite bathroom, a very spacious sitting room, separate dining room and a fully equipped kitchen. This section of the suite also has views overlooking our beautiful award-winning courtyard.</p>
+              <p class="card-text">The second suite is 796 square feet in size, consisting of two bedrooms, one with a king-size bed and an en-suite bathroom; one with twin beds and a separate bathroom, plus a spacious sitting room and a fully equipped kitchen. The third suite 699 square feet, consists of one king-size bedroom, a sitting room, a fully equipped kitchen and a bathroom.</p> 
+
+              <div class="container">
+                <div class="row">
+                  <div class="col-sm">
+                    <p class="card-text"><i class="bi bi-building"></i> 167 Sq Mt</p> 
+                </div>
+                <div class="col-sm">
+                    <p class="card-text"><i class="bi bi-wifi"></i> Wifi Complimentry</p> 
+                </div>
+                <div class="col-sm">
+                    
+                </div>
+               </div>
+               <div class="row">
+                <div class="col-sm">
+                  <p class="card-text"><i class="glyphicon glyphicon-user"></i><i class="glyphicon glyphicon-user"></i> Upto 6 guests</p> 
+              </div>
+              <div class="col-sm">
+                  <p class="card-text"><i class="fa fa-bed" aria-hidden="true"></i> King</p> 
+              </div>
+              <div class="col-sm">
+                  
+              </div>
+             </div>
+             <div class="row">
+                <div class="col-sm">
+                  <p class="card-text"><i class="fa fa-smoking-ban"></i> No smoking</p> 
+              </div>
+              <div class="col-sm">
+                  
+              </div>
+              <div class="col-sm">
+                <p class="card-text"><i class="bi bi-currency-pound"></i>923</p> 
+                  
+              </div>
+             </div>
+             <div class="row">
+                <div class="col-sm">
+                 
+              </div>
+              <div class="col-sm">
+                  
+              </div>
+              <div class="col-sm">
+                                <a href="#" class="btn btn-primary">Book Suite</a>
+              </div>
+             </div>
+              </div>
+            </div>
+          </div>
+    </div>
+    <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-dining-tab">
+        <div class="about">
+        <h4 class="text-warning "><u>CULINARY AND EPICUREAN DELIGHTS</u></h4>
+        <p > offers an exceptional range of dining options and bars, each offering unique cuisines and cooking styles.
+
+            Kona offers an innovative interpretation of the colours, flavours and vibrancy of award-winning themed afternoon teas, while Bistro has something for everyone with its international favourites. The Michelin-starred Quilon will take you along the south west coast of India. A few moments away in a black cab, the iconic Bombay Brasserie serves the authentic flavours of the subcontinent, transformed into a contemporary gourmet experience.
+            
+            The Hamptons bar is the perfect place for an evening cocktail with a harmonious accompaniment by the resident pianist. In the summer,  St. James’ Courtyard is the place to be, open all day for alfresco dining or a seasonal cocktails by the fountain.</p>
+        </div>    
+        <div class="card">
+            <img src="../../gallery_images/hotels/stjames_london.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title"><u>St. James’ Courtyard</u></h5>
+              <p class="card-text"><i class="bi bi-geo-alt"></i>51 Buckingham gate suites,london,United Kingdom</p> 
+              <p class="card-text">From the minute you step into the tranquil St James’ Courtyard, every memory of fast-paced Sydney melts away. An ornate Victorian fountain plays in a quadrangle of porches and pillars that glitter with a sea-green faience glaze.</p>
+              <p class="card-text"> Linking the eight townhouses that surround this court is an endless frieze of figures - carved from the bricks that dance right round the quad - reputedly the longest Shakespearean sylvan frieze in the world. It makes a perfect backdrop for al fresco meals and drinks in the summer.</p>
+                
+              <div class="container">
+                <div class="row">
+                  <div class="col-sm">
+                    <p class="card-text"><h6 class="text-primary">Cuisine</h6>  - Finger Food</p> 
+                </div>
+                <div class="col-sm">
+                    <p class="card-text"></p> 
+                </div>
+                <div class="col-sm">
+                  <p class="card-text"><h6 class="text-primary">Dress Code</h6> <h6>Smart Casual</h6> </p> 
+                </div>
+               </div>
+               <div class="row">
+                <div class="col-sm">
+                  <p class="card-text"><h6 class="text-primary"> Open </h6> 12:00-23:00(weather permittes</p> 
+              </div>
+              <div class="col-sm">
+                  
+              </div>
+              <div class="col-sm">
+                <a href="#" class="btn btn-primary">Reserve Table</a>
+                   
+              </div>
+             </div>
+            </div>
+            </div>
+          </div>
+          <div class="card">
+            <img src="../../gallery_images/hotels/kona_london.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title"><u>Kona</u></h5>
+              <p class="card-text"><i class="bi bi-geo-alt"></i>51 Buckingham gate suites,london,United Kingdom</p> 
+              <p class="card-text">Indulge your taste buds in the lush offerings of Kona. The newest addition to  Buckingham Gate will surprise you with mesmerising creative afternoon teas. Choose between the Jasmine Indian or Alice's Queen of Hearts Afternoon Tea .</p>
+              <p class="card-text"> Each menu is carefully curated from sweet temptations, sandwiches and perfectly match teas. It is fun yet elegant and served in a luxurious environment with a homely, welcoming ambience.</p>
+                
+              <div class="container">
+                <div class="row">
+                  <div class="col-sm">
+                    <p class="card-text"><h6 class="text-primary">Cuisine</h6>  - European</p> 
+                </div>
+                <div class="col-sm">
+                    <p class="card-text"></p> 
+                </div>
+                <div class="col-sm">
+                  <p class="card-text"><h6 class="text-primary">Dress Code</h6> <h6>Smart Casual</h6> </p> 
+                </div>
+               </div>
+               <div class="row">
+                <div class="col-sm">
+                  <p class="card-text"><h6 class="text-primary"> Open </h6> Wednesday - Friday (12:00 & 14:00) | Saturday & Sunday (12:00, 14:00 & 16:00</p> 
+              </div>
+              <div class="col-sm">
+                  
+              </div>
+              <div class="col-sm">
+                <a href="#" class="btn btn-primary">Reserve Table</a>
+                   
+              </div>
+             </div>
+            </div>
+            </div>
+          </div>
+          <div class="card">
+            <img src="../../gallery_images/hotels/hamptonsbar_london.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title"><u>The Hamptons Bar</u></h5>
+              <p class="card-text"><i class="bi bi-geo-alt"></i>51 Buckingham gate suites,london,United Kingdom</p> 
+              <p class="card-text">With an air of sophistication, large elegant gilt mirrors and high-backed chairs, the Hamptons bar is the perfect setting for an intimate tete-a-tete. The extensive cocktail list with seasonal and signature specials is complemented by gourmet nibbles and tapas. The exclusive Cellar Room.</p>
+              <p class="card-text">  an annexe to the bar, hosts champagne flights with paired canapes, wine-tastings and other special events.</p>
+                
+              <div class="container">
+                <div class="row">
+                  <div class="col-sm">
+                    <p class="card-text"><h6 class="text-primary">Cuisine</h6>  - Finger Food</p> 
+                </div>
+                <div class="col-sm">
+                    <p class="card-text"></p> 
+                </div>
+                <div class="col-sm">
+                  <p class="card-text"><h6 class="text-primary">Dress Code</h6> <h6>Smart Casual</h6> </p> 
+                </div>
+               </div>
+               <div class="row">
+                <div class="col-sm">
+                  <p class="card-text"><h6 class="text-primary"> Open </h6> 12:00-23:00(weather permittes</p> 
+              </div>
+              <div class="col-sm">
+                <p class="card-text"><h6 class="text-primary"> Friday and saturday-</h6>Pianist in the lobby from 18:00 - 21:00</p> 
+                  
+              </div>
+              <div class="col-sm">
+                <a href="#" class="btn btn-primary">Reserve Table</a>
+                   
+              </div>
+             </div>
+            </div>
+            </div>
+          </div>
+          
+    </div>
+    <div class="tab-pane fade" id="nav-offers" role="tabpanel" aria-labelledby="nav-offers-tab">
+      <div class="card-deck" >
+
+        <div class="card">
+          <img class="card-img-top" style="width: 100%;" src="../../gallery_images/promotions/offer1.jpg" alt="Card image cap" height=300px >
+          <div class="card-body">
+            <h5 class="card-title">Flat 50% off </h5>
+            <p class="card-text" style="text-align: left;"> Get flat 50% off on your first step in 1st step hotels </p>
+            <div class="input-group mb-3">
+              <div class="input-group-prepend">
+                <span class="input-group-text" id="basic-addon3">code:</span>
+              </div>
+              <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3" placeholder="vtsa6sahds" value="vtsa6sahds" readonly>
+            </div>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">Last updated 3 mins ago</small>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top" style="width: 100%;" src="../../gallery_images/promotions/dicount.jpg" alt="Card image cap" height=300px >
+          <div class="card-body">
+            <h5 class="card-title">Flat 40% off </h5>
+            <p class="card-text" style="text-align: left;"> Get flat 40% off on your first step in 1st step hotels </p>
+            <div class="input-group mb-3">
+              <div class="input-group-prepend">
+                <span class="input-group-text" id="basic-addon3">code:</span>
+              </div>
+              <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3" placeholder="vtsa6sahds" value="vtsa6sahds" readonly>
+            </div>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">Last updated 3 mins ago</small>
+          </div>
+        </div>
+        <!-- --------------------------------------------- -->
+        <div class="card">
+          <img class="card-img-top" style="width: 100%;" src="../../gallery_images/promotions/offer2.jpg" alt="Card image cap" height=300px >
+          <div class="card-body">
+            <h5 class="card-title">Flat 30% off </h5>
+            <p class="card-text" style="text-align: left;"> Get flat 30% off on some selected hotels and cuiines </p>
+            <div class="input-group mb-3">
+              <div class="input-group-prepend">
+                <span class="input-group-text" id="basic-addon3">code:</span>
+              </div>
+              <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3" placeholder="xwo9sfdt" value="xwo9sfdt" readonly>
+            </div>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">Last updated 3 mins ago</small>
+          </div>
+        </div>
+        <!-- ----------------------------------------------------------- -->
+        <div class="card">
+          <img class="card-img-top" style="width: 100%;" src="../../gallery_images/promotions/offer3.jpg" alt="Card image cap" >
+          <div class="card-body">
+            <h5 class="card-title">Flat 60% off </h5>
+            <p class="card-text" style="text-align: left;"> Get flat 50% off on online bookings through our portal.</p>
+            <div class="input-group mb-3">
+              <div class="input-group-prepend">
+                <span class="input-group-text" id="basic-addon3">code:</span>
+              </div>
+              <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3" placeholder="wqm85hs" value="wqm85hs" readonly>
+            </div>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">Last updated 3 mins ago</small>
+          </div>
+        </div>
+    </div>
+    </div>
+    <div class="tab-pane fade" id="nav-event" role="tabpanel" aria-labelledby="nav-event-tab">
+      <div class="card">
+        <img src="../../gallery_images/hotels/social_events.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title"><u>Elegant Hall</u></h5>
+          
+         <div class="container">
+            <div class="row">
+              <div class="col-sm">
+                <p class="card-text"><h6 class="text-primary">Max Capacity</h6>  - 25</p> 
+            </div>
+            <div class="col-sm">
+                <p class="card-text"><h6 class="text-primary">Entry Point</h6>Single Entry</p> 
+            </div>
+            <div class="col-sm">
+               
+            </div>
+           </div>
+           <div class="row">
+            <div class="col-sm">
+              <p class="card-text"><h6 class="text-primary">Other Coveniences</h6></p> 
+          </div>
+          <div class="col-sm">
+           
+              
+          </div>
+          <div class="col-sm">
+            
+               
+          </div>
+         </div>
+         <div class="row">
+          <div class="col-sm">
+            <p class="card-text"><h6>-audio- visual Equipment</h6></p> 
+        </div>
+        <div class="col-sm">
+          <p class="card-text"><h6>General Services</h6></p> 
+           
+        </div>
+        <div class="col-sm">
+          <p class="card-text"><h6>Internet Access</h6></p> 
+          
+             
+        </div>
+       </div>
+           <div class="row">
+            <div class="col-sm">
+              <p class="card-text"><h6 class="text-primary"> Open </h6> 12:00-23:00(weather permittes</p> 
+          </div>
+          <div class="col-sm">
+            <p class="card-text"><h6 class="text-primary">Seating Style</h6><h6>Reception</h6><span class="glyphicon glyphicon-glass"></span></p>   </p> 
+              
+          </div>
+          <div class="col-sm">
+            <a href="#" class="btn btn-primary">Get Quote</a>
+               
+          </div>
+         </div>
+        </div>
+        </div>
+      </div>
+      <div class="card">
+        <img src="../../gallery_images/hotels/meeting_hall.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title"><u>Social Events</u></h5>
+          
+         <div class="container">
+            <div class="row">
+              <div class="col-sm">
+                <p class="card-text"><h6 class="text-primary">Max Capacity</h6>  - 50</p> 
+            </div>
+            <div class="col-sm">
+                <p class="card-text"><h6 class="text-primary">Entry Point</h6>Single Entry</p> 
+            </div>
+            <div class="col-sm">
+              <p class="card-text"><h6>The space and facilities of this venue make it fit for small private gathering. Combine with Kona for a larger space</h6></p> 
+               
+            </div>
+           </div>
+           <div class="row">
+            <div class="col-sm">
+              <p class="card-text"><h6 class="text-primary">Other Coveniences</h6></p> 
+          </div>
+          <div class="col-sm">
+           
+              
+          </div>
+          <div class="col-sm">
+            
+               
+          </div>
+         </div>
+         <div class="row">
+          <div class="col-sm">
+            <p class="card-text"><h6>-audio- visual Equipment</h6></p> 
+        </div>
+        <div class="col-sm">
+          <p class="card-text"><h6>General Services</h6></p> 
+           
+        </div>
+        <div class="col-sm">
+          <p class="card-text"><h6>Internet Access</h6></p> 
+          
+             
+        </div>
+       </div>
+           <div class="row">
+            <div class="col-sm">
+              <p class="card-text"><h6 class="text-primary"> Open </h6> 12:00-23:00(weather permittes</p> 
+          </div>
+          <div class="col-sm">
+            <p class="card-text"><h6 class="text-primary">Seating Style</h6><h6>Reception</h6><span class="glyphicon glyphicon-glass"></span></p>   </p> 
+              
+          </div>
+          <div class="col-sm">
+            <a href="#" class="btn btn-primary">Get Quote</a>
+               
+          </div>
+         </div>
+        </div>
+        </div>
+      </div>
+    </div>
+    <div class="tab-pane fade" id="nav-experience" role="tabpanel" aria-labelledby="nav-xper-tab">
+      <div class="card-deck" >
+
+        <div class="card">
+          <img class="card-img-top" style="width: 100%;" src="../../gallery_images/hotels/serving.jpg" alt="Card image cap" height=300px >
+          <div class="card-body">
+            <h5 class="card-title">Royal Treatment</h5>
+            <a href="#" class="btn btn-primary">Viw Details</a>
+             
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">Last updated 3 mins ago</small>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top" style="width: 100%;" src="../../gallery_images/hotels/spa.jpg" alt="Card image cap" height=300px >
+          <div class="card-body">
+            <h5 class="card-title">SPA in CITY</h5>
+            <a href="#" class="btn btn-primary">Viw Details</a>
+            
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">Last updated 3 mins ago</small>
+          </div>
+        </div>
+        <!-- --------------------------------------------- -->
+        <div class="card">
+          <img class="card-img-top" style="width: 100%;" src="../../gallery_images/hotels/OIP.jpg" alt="Card image cap" height=300px >
+          <div class="card-body">
+            <h5 class="card-title">SUNDOWN SIPPING</h5>
+            <a href="#" class="btn btn-primary">Viw Details</a>
+            
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">Last updated 3 mins ago</small>
+          </div>
+        </div>
+        <!-- ----------------------------------------------------------- -->
+        <div class="card">
+          <img class="card-img-top" style="width: 100%;" src="../../gallery_images/hotels/child_spa.jpg" alt="Card image cap" >
+          <div class="card-body">
+            <h5 class="card-title">Parent and Child SPA experience </h5>
+            <a href="#" class="btn btn-primary">Viw Details</a>
+          
+            
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">Last updated 3 mins ago</small>
+          </div>
+        </div>
+    </div>
+    </div>
+    <div class="tab-pane fade" id="nav-gallery" role="tabpanel" aria-labelledby="nav-gallery-tab">
+      <div class="gallery">
+  
+        <img src="../../gallery_images/image-001.jpg">
+        <img src="../../gallery_images/image-002.jpg">
+        <img src="../../gallery_images/image-003.jpg">
+        <img src="../../gallery_images/image-004.jpg">
+        <img src="../../gallery_images/image-005.jpg">
+        <img src="../../gallery_images/image-006.jpg">
+        <img src="../../gallery_images/image-007.jpg">
+        <img src="../../gallery_images/image-008.jpg">
+        <img src="../../gallery_images/image-009.jpg">
+        <img src="../../gallery_images/image-010.jpg">
+        <img src="../../gallery_images/image-011.jpg">
+        <img src="../../gallery_images/image-012.jpg">
+        <img src="../../gallery_images/image-013.jpg">
+        <img src="../../gallery_images/image-014.jpg">
+        <img src="../../gallery_images/image-015.jpg">
+        <img src="../../gallery_images/image-016.jpg">
+        <img src="../../gallery_images/image-017.jpg">
+        <img src="../../gallery_images/image-018.jpg">
+        <img src="../../gallery_images/image-019.jpg">
+        <img src="../../gallery_images/image-020.jpg">
+        <img src="../../gallery_images/image-021.jpg">
+        <img src="../../gallery_images/image-022.jpg">
+        <img src="../../gallery_images/image-023.jpg">
+        <img src="../../gallery_images/image-024.jpg">
+       
+       </div>
+    </div>
+    
+  </div>
+    <br>
+
+    <div class="container-fluid pb-0 mb-0 justify-content-center text-light ">
+      <footer>
+          <div class="row my-5 justify-content-center py-5">
+              <div class="col-11">
+                  <div class="row ">
+                      <div class="col-xl-8 col-md-4 col-sm-4 col-12 my-auto mx-auto a">
+                          <h3 class="text-muted mb-md-0 mb-5 bold-text">FIRST STEP HOTELS</h3>
+                      </div>
+                      <div class="col-xl-2 col-md-4 col-sm-4 col-12">
+                          <h6 class="mb-3 mb-lg-4 bold-text "><b>MENU</b></h6>
+                          <ul class="list-unstyled">
+                              <li><a href="../../index.html">Home </a></li>
+                              <li><a href="../../pages/contactus.html">About</a></li>
+                              <li><a href="../../pages/gallery.html">Gallery</a></li>
+                              <li><a href="../../pages/touristplaces.html">Hotels</a></li>
+                              <li><a href="../../pages/cuisines.html">Cuisines</a></li>
+                              <li><a href="../../pages/covid.html">Covid Protocols</a></li>
+                          </ul>
+                      </div>
+                      <div class="col-xl-2 col-md-4 col-sm-4 col-12">
+                          <h6 class="mb-3 mb-lg-4 text-muted bold-text mt-sm-0 mt-5"><b>CONTACT US</b></h6>
+                          <p class="mb-1">605, FIRST STEP HEADQUATERS</p>
+                          <p>HYDERABAD</p>
+                      </div>
+                  </div>
+                  <div class="row ">
+                      <div class="col-xl-8 col-md-4 col-sm-4 col-auto my-md-0 mt-5 order-sm-1 order-3 align-self-end">
+                          <p class="social text-muted mb-0 pb-0 bold-text"> <span class="mx-2"><i class="bi bi-facebook" aria-hidden="true"></i></span> <span class="mx-2"><i class="bi bi-linkedin-square" aria-hidden="true"></i></span> <span class="mx-2"><i class="bi bi-twitter" aria-hidden="true"></i></span> <span class="mx-2"><i class="bi bi-instagram"></i></span> </p><small class="rights"><span>&#174;</span> WEBWEAVER designing All Rights Reserved.</small>
+                      </div>
+                     
+                      <div class="col-xl-2 col-md-4 col-sm-4 col-auto order-2 align-self-end mt-3 ">
+                          <h6 class="text-muted bold-text"><b>REGIONAL MANAGER</b></h6><small><span><i class="fa fa-envelope" aria-hidden="true"></i></span> managerFirsthotels@gmail.com</small>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </footer>
+      </div>
+</body>
+</html>
