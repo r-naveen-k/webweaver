@@ -21,8 +21,8 @@
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav" style="justify-content:space-around;">
-          <ul class="navbar-nav">
+        <div class="collapse navbar-collapse" id="navbarNav" style="justify-content:left">
+          <ul class="navbar-nav" style="margin-left:20%">
             <li class="nav-item" style="margin-left:20%">
               <a class="nav-link" href="../index.html">Home <span class="sr-only">(current)</span></a>
             </li>
@@ -34,6 +34,9 @@
             </li>
             <li class="nav-item" style="margin-left: 20%;">
               <a class="nav-link"  href="./gallery.html">Gallery</a>
+            </li>
+            <li class="nav-item" style="margin-left: 20%;">
+              <a class="nav-link"  href="./covid.html">covid-19</a>
             </li>
             <li class="nav-item" style="margin-left: 20%;">
               <a class="nav-link" href="./contactus.html">About</a>
@@ -61,9 +64,43 @@
       </i>
         <h5>For any kind of issues</h5>
       <p class="lead">
-        <a class="btn btn-primary btn-lg" href="#" role="button">Contact us</a>
+        <a class="btn btn-primary btn-lg" href="#" role="button" data-toggle="modal" data-target="#exampleModal">Contact us</a>
       </p>
     </div>
+
+    <!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Feedback</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <h3>Your opinion matters</h3>
+        <h5>Help us improve our product? <strong>Give us your feedback.</strong></h5>
+        <hr>
+        <h6>Your Rating</h6>
+    </div> <!-- Radio Buttons for Rating-->
+    <div class="form-check mb-4"> <input name="feedback" type="radio"> <label class="ml-3">Very good</label> </div>
+    <div class="form-check mb-4"> <input name="feedback" type="radio"> <label class="ml-3">Good</label> </div>
+    <div class="form-check mb-4"> <input name="feedback" type="radio"> <label class="ml-3">Mediocre</label> </div>
+    <div class="form-check mb-4"> <input name="feedback" type="radio"> <label class="ml-3">Bad</label> </div>
+    <div class="form-check mb-4"> <input name="feedback" type="radio"> <label class="ml-3">Very Bad</label> </div>
+    <!--Text Message-->
+    <div class="text-center">
+        <h4>What could we improve?</h4>
+    </div> <textarea type="textarea" placeholder="Your Message" rows="3"></textarea>
+      
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Submit</button>
+      </div>
+    </div>
+  </div>
+</div>
     
     
 
@@ -120,18 +157,40 @@
     <br>
 
     <!-- ==================chairmen================== -->
-    <div>
+    <div class="flexer" style="display: flex;">
+      <div class="chairman" >
     <div class="container-fluid bg-1 text-center black">
       <h4>Chairman</h4><br>
       <img src="../logos/basker.jpeg" class="img-circle circle" alt="Bird" width="350" height="350"><br><br>
-      <h2>Basker</h2>
+      <h2>Basker</h2><small>-B.tech, Osmania University</small>
     </div>
     
     <div class="container-fluid bg-2 text-center black">
       <svg xmlns="http://www.w3.org/2000/svg" width="50px" height="50px" fill="currentColor" class="bi bi-quote" viewBox="0 0 16 16">
         <path d="M12 12a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1h-1.388c0-.351.021-.703.062-1.054.062-.372.166-.703.31-.992.145-.29.331-.517.559-.683.227-.186.516-.279.868-.279V3c-.579 0-1.085.124-1.52.372a3.322 3.322 0 0 0-1.085.992 4.92 4.92 0 0 0-.62 1.458A7.712 7.712 0 0 0 9 7.558V11a1 1 0 0 0 1 1h2Zm-6 0a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1H4.612c0-.351.021-.703.062-1.054.062-.372.166-.703.31-.992.145-.29.331-.517.559-.683.227-.186.516-.279.868-.279V3c-.579 0-1.085.124-1.52.372a3.322 3.322 0 0 0-1.085.992 4.92 4.92 0 0 0-.62 1.458A7.712 7.712 0 0 0 3 7.558V11a1 1 0 0 0 1 1h2Z"/>
       </svg>
-      <p class="fw-strong"><em>”A hotel should relieve travelers of their insecurity and loneliness. It should make them feel warm and cozy.”</em> </p>
+      <p class="fw-strong"><em>“Never say no when a client asks for something, even if it is the moon. You can always try, and anyhow there is plenty of time afterwards to explain that it was not possible.”</em> <br><br></p>
+    </div>
+    </div>
+
+    &nbsp
+
+    <div class="vice-chair">
+      <div class="container-fluid bg-1 text-center black">
+        <h4>Vice-Chairman</h4><br>
+        <img src="../logos/vice-chair.jpeg" class="img-circle circle" alt="Bird" width="350" height="350"><br><br>
+        <h2>Rallabandi Naveen Kumar</h2><small>- B.Tech,Osmania University </small>
+      </div>
+      
+      <div class="container-fluid bg-2 text-center black">
+        <svg xmlns="http://www.w3.org/2000/svg" width="50px" height="50px" fill="currentColor" class="bi bi-quote" viewBox="0 0 16 16">
+          <path d="M12 12a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1h-1.388c0-.351.021-.703.062-1.054.062-.372.166-.703.31-.992.145-.29.331-.517.559-.683.227-.186.516-.279.868-.279V3c-.579 0-1.085.124-1.52.372a3.322 3.322 0 0 0-1.085.992 4.92 4.92 0 0 0-.62 1.458A7.712 7.712 0 0 0 9 7.558V11a1 1 0 0 0 1 1h2Zm-6 0a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1H4.612c0-.351.021-.703.062-1.054.062-.372.166-.703.31-.992.145-.29.331-.517.559-.683.227-.186.516-.279.868-.279V3c-.579 0-1.085.124-1.52.372a3.322 3.322 0 0 0-1.085.992 4.92 4.92 0 0 0-.62 1.458A7.712 7.712 0 0 0 3 7.558V11a1 1 0 0 0 1 1h2Z"/>
+        </svg>
+        <p class="fw-strong"><em> “I’ve identified the four key strategic decisions that formed the rock-solid foundation of Four Seasons. These are now known as the four pillars of our business model. They are quality, service, culture, and brand.” </em> </p>
+      </div>
+
+    </div>
+
     </div>
     
 
@@ -159,6 +218,7 @@
                               <li><a href="./gallery.html">Gallery</a></li>
                               <li><a href="./touristplaces.html">Hotels</a></li>
                               <li><a href="./cuisines.html">Cuisines</a></li>
+                              <li><a href="./covid.html">Covid protocols</a></li>
                           </ul>
                         </div>
                         <div class="col-xl-2 col-md-4 col-sm-4 col-12">
