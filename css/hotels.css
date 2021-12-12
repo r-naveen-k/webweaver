@@ -177,6 +177,10 @@ html {
     
     
   } 
+  .about{
+      margin: 1%;
+      
+  }
   .card {
     margin: 1%;  
     flex-direction: row;
@@ -266,7 +270,90 @@ html {
   border-radius: 100%;
 }
 
+.gallery {
+  line-height:0;
+  column-count:5;
+  column-gap:5px;
+  margin-top: 70px;
+}
 
+.gallery img:hover{
+   scale: 200%;
+   transition: .5s; /*scales smoothly*/
+   opacity: 1;
+   
+   
 
+}
 
+.gallery img {
+  width: 100% !important;
+  height: auto !important;
+  margin-bottom:5px; /* to match column gap */
+  border-radius: 10px;
+ 
+
+}
+
+@media (max-width: 1200px) {
+  .gallery {
+   column-count:         4;
+  }
+}
+
+@media (max-width: 1000px) {
+  .gallery {
+   column-count:         3;
+  }
+}
+
+@media (max-width: 800px) {
+  .gallery {
+   column-count:         2;
+  }
+}
+
+@media (max-width: 400px) {
+  .gallery {
+   column-count:         1;
+  }
+}
+
+/* _nav.scss:32 */
+.nav-tabs {
+  border-bottom: $nav-tabs-border-width solid $nav-tabs-border-color;
+
+  .nav-item {
+    margin-bottom: -$nav-tabs-border-width;
+  }
+
+  .nav-link {
+    border: $nav-tabs-border-width solid transparent;
+    @include border-top-radius($nav-tabs-border-radius);
+
+    @include hover-focus {
+      border-color: $nav-tabs-link-hover-border-color;
+    }
+
+    &.disabled {
+      color: $nav-link-disabled-color;
+      background-color: transparent;
+      border-color: transparent;
+    }
+  }
+
+  .nav-link.active,
+  .nav-item.show .nav-link {
+    color: $nav-tabs-link-active-color;
+    background-color: $nav-tabs-link-active-bg;
+    border-color: $nav-tabs-link-active-border-color;
+  }
+
+  .dropdown-menu {
+    // Make dropdown border overlap tab border
+    margin-top: -$nav-tabs-border-width;
+    // Remove the top rounded corners here since there is a hard edge above the menu
+    @include border-top-radius(0);
+  }
+}
 
